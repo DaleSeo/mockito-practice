@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12',
+                'org.mockito:mockito-all:1.10.19',
+                'org.assertj:assertj-core:3.8.0'
+
+}
